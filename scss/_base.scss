@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Libre+Baskerville:wght@400;700&display=swap');
+
+$black: #000;
+$gray-500: #7d7d7d;
+$gray-200: #e5e5e5;
+$gray-150: #f3f3f3;
+$white: #fff;
+$main-font:'Baskervville', serif;
+$secondary-font:'Libre Baskerville', serif;
+$bp-pc:62.5em;
+$bp-mobile:48em;
+
+*,*::before,*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html{
+  font-size: 62.5%;
+  box-sizing: border-box;
+  @media only screen and (max-width:$bp-pc) {
+    font-size: 50%;
+  }
+}
+
+body{
+  max-width: 100vw;
+  min-height:100vh ;
+  font-family: $main-font;
+  position: relative;
+}

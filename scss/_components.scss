@@ -1,0 +1,19 @@
+@use 'base' as *;
+.underline{
+  width: 90%;
+  height: 2px;
+  margin: 0 auto;
+  background-color: $gray-500;
+}
+.line{
+  height: 1px;
+  margin-top: 4rem;
+  position: relative;
+}
+.progress{
+  position: absolute;
+  width: 50%;
+  left: 0;
+  height: 1px;
+  background-color: #000;
+}
