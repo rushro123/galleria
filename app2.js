@@ -46,7 +46,7 @@ document.querySelector('.view').addEventListener('click', () => {
   const modal = document.querySelector('.modal');
   modal.classList.add('active2');
   const body = document.querySelector('body');
-
+  body.classList.add('hidden');
 })
 
 document.querySelector('.close').addEventListener('click', () => {
